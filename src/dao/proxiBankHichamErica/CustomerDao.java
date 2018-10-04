@@ -7,7 +7,7 @@ public interface CustomerDao {
 
 	public int deleteCustomer(Client c) throws MybusinessException;
 
-	public Client findById(int id);
+	public Conseiller findConseillerById(int id);
 
 	public Client findCustomer(Client c);
 
